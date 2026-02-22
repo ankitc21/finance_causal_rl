@@ -2,8 +2,11 @@
 data/raw/*
 data/processed/*
 
+# Allow fred macro data
+!data/raw/fred/
+!data/raw/fred/*.csv
+
 # Ignore large files
-*.csv
 *.gz
 
 # Python cache
