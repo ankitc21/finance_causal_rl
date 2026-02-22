@@ -1,0 +1,11 @@
+# Ignore raw and processed data
+data/raw/*
+data/processed/*
+
+# Ignore large files
+*.csv
+*.gz
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
